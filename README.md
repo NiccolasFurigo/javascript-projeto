@@ -1,2 +1,2 @@
 # javascript-projeto
- Testando interações com JavaScript
+ Testando interações simples com JavaScript
