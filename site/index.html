@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DETRAN</title>
+    <style>
+        body{
+            background-color: lightblue;
+        }
+        h1{
+            font-family: Arial, Helvetica, sans-serif;
+            color: white;
+        }
+        p{
+            font: normal 15px Arial;
+            color: darkblue;
+        }
+    </style>
+</head>
+<body>
+    <h1>Calculando Velocidade</h1>
+    <p>Seu nome é <input type="text" name="txtNome" id="Nome"></p>
+    <p>Sua velocidade é: <input type="number" name="txtvel" id="vel"> Km/h
+    <input type="button" value="Verificar" onclick="clicar()"></p>
+    <div id="res">
+        
+    </div>
+    <script>
+        function clicar(){
+            var nome = document.getElementById('Nome').value
+            var v = document.getElementById('vel')
+            var km = Number(v.value)
+            var res = document.getElementById('res')
+            res.innerHTML = `<p>Sua velocidade é de ${km} km/h</p>`
+            if(km > 60){
+                res.innerHTML += `<p> ${nome} foi MULTADO!</p>`
+            } else {
+                res.innerHTML += `<p> ${nome} continue assim!</p>`
+            }
+            res.innerHTML += '<p>Dirija sempre com cinto de segurança!</p>'
+        }
+    </script>
+</body>
+</html>
