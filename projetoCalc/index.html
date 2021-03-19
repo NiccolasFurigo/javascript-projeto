@@ -19,24 +19,19 @@
         </fieldset>
         <div id="botao">
             <div>
-                <input id="div" class="numero" type="button" value="/">
-                <input id="mult" class="numero" type="button" value="*">
-                <input id="sub" class="numero" type="button" value="-">
-                <input id="soma" class="numero" type="button" value="+">
+                <input class="texto" type="text" name="tNum" id="cNum" placeholder="Digite um número">
+                <input class="texto" type="text" name="tNum2" id="cNum2" placeholder="Digite um número">
             </div>
-            <div id="numero">
-                <input id="number" class="numero" type="button" value="7" onclick="clicar()">
-                <input id="number" class="numero" type="button" value="8" onclick="clicar()">
-                <input id="number" class="numero" type="button" value="9" onclick="clicar()">
-                <input id="number" class="numero" type="button" value="4" onclick="clicar()">
-                <input id="number" class="numero" type="button" value="5" onclick="clicar()">
-                <input id="number" class="numero" type="button" value="6" onclick="clicar()">
-                <input id="number" class="numero" type="button" value="1" onclick="clicar()">
-                <input id="number" class="numero" type="button" value="2" onclick="clicar()">
-                <input id="number" class="numero" type="button" value="3" onclick="clicar()">
-                <input id="number" class="zero" type="button" value="0" onclick="clicar()">
+            <div>
+                <input id="div" class="numero" type="button" value="/" onclick="div()">
+                <input id="mult" class="numero" type="button" value="*" onclick="mult()">
+                <input id="sub" class="numero" type="button" value="-" onclick="sub()">
+                <input id="soma" class="numero" type="button" value="+" onclick="soma()">
+                <input id="raiz" class="numero" type="button" value="&Sqrt;" onclick="raiz()">
+                <input id="resto" class="numero" type="button" value="%" onclick="resto()">
+                <input id="limpar" class="limpa" type="button" value="Limpar" onclick="limpar()">
             </div>
-            <input id="enter" type="button" value="Enter">
+ 
         </div>
     </main>
     <footer>

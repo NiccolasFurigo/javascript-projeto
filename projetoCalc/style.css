@@ -38,26 +38,21 @@ div#botao {
     box-shadow: 1px 1px 10px rgba(0, 0, 0, .6);
 
 }
-.zero {
-    width: 145px;
+.limpa {
+    width: 95px;
     height: 40px;
     margin: 4px;
     border-radius: 5px;
     box-shadow: 1px 1px 10px rgba(0, 0, 0, .6);
 }
-#enter {
-    width: 40px;
-    height: 135px;
-    padding: 1px;
-    position: relative;
-    left: 160px;
-    top: -188px;
-    border-radius: 5px;
-    box-shadow: 1px 1px 10px rgba(0, 0, 0, .6);
-}
-div#numero {
+
+.texto {
     width: 200px;
+    height: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
+
 footer {
     margin: 30px;
     text-align: center;
