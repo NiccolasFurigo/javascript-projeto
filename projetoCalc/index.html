@@ -8,6 +8,9 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <header>
+        <h1>Calculadora Simples</h1>
+    </header>
     <main>
         <fieldset>
             <div id="tela">
@@ -16,26 +19,29 @@
         </fieldset>
         <div id="botao">
             <div>
-                <input class="operacoes" type="button" value="/">
-                <input class="operacoes" type="button" value="*">
-                <input class="operacoes" type="button" value="-">
-                <input class="operacoes" type="button" value="+">
+                <input id="div" class="numero" type="button" value="/">
+                <input id="mult" class="numero" type="button" value="*">
+                <input id="sub" class="numero" type="button" value="-">
+                <input id="soma" class="numero" type="button" value="+">
             </div>
             <div id="numero">
-                <input class="numero" type="button" value="1">
-                <input class="numero" type="button" value="2">
-                <input class="numero" type="button" value="3">
-                <input class="numero" type="button" value="4">
-                <input class="numero" type="button" value="5">
-                <input class="numero" type="button" value="6">
-                <input class="numero" type="button" value="7">
-                <input class="numero" type="button" value="8">
-                <input class="numero" type="button" value="9">
-                <input id="zero" type="button" value="0">
+                <input id="numero7" class="numero" type="button" value="7">
+                <input id="numero8" class="numero" type="button" value="8">
+                <input id="numero9" class="numero" type="button" value="9">
+                <input id="numero4" class="numero" type="button" value="4">
+                <input id="numero5" class="numero" type="button" value="5">
+                <input id="numero6" class="numero" type="button" value="6">
+                <input id="numero1" class="numero" type="button" value="1">
+                <input id="numero2" class="numero" type="button" value="2">
+                <input id="numero3" class="numero" type="button" value="3">
+                <input id="numero0" class="zero" type="button" value="0">
             </div>
             <input id="enter" type="button" value="Enter">
         </div>
     </main>
+    <footer>
+        &copy;NiccolasFurigo
+    </footer>
     <script src="script.js"></script>
 </body>
 </html>

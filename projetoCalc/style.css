@@ -2,6 +2,16 @@
 body {
     background-color: white;
 }
+header h1 {
+    color: blue;
+    text-align: center;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, .5);
+}
+fieldset {
+    background-color: rgba(243, 243, 243, 0.685);
+    border: none;
+    border-radius: 5px;
+}
 
 main {
     background-color: gray;
@@ -11,7 +21,7 @@ main {
     padding: 10px;
     border: 1em outset;
     border-radius: 10px;
-    box-shadow: 10px 1px 50px black;
+    box-shadow: 15px 10px 20px black;
 }
 
 div#botao {
@@ -26,8 +36,9 @@ div#botao {
     margin: 4px;
     border-radius: 5px;
     box-shadow: 1px 1px 10px rgba(0, 0, 0, .6);
+
 }
-#zero {
+.zero {
     width: 145px;
     height: 40px;
     margin: 4px;
@@ -44,13 +55,10 @@ div#botao {
     border-radius: 5px;
     box-shadow: 1px 1px 10px rgba(0, 0, 0, .6);
 }
-.operacoes{
-    width: 40px;
-    height: 40px;
-    margin: 4px;
-    border-radius: 5px;
-    box-shadow: 1px 1px 10px rgba(0, 0, 0, .6);
-}
 div#numero {
     width: 200px;
+}
+footer {
+    margin: 30px;
+    text-align: center;
 }
