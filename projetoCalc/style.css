@@ -1,0 +1,56 @@
+@charset "UTF-8";
+body {
+    background-color: white;
+}
+
+main {
+    background-color: gray;
+    width: 230px;
+    height: 300px;
+    margin: auto;
+    padding: 10px;
+    border: 1em outset;
+    border-radius: 10px;
+    box-shadow: 10px 1px 50px black;
+}
+
+div#botao {
+    display: block;
+    padding: 10px;
+    margin: auto;
+}
+
+.numero {
+    width: 40px;
+    height: 40px;
+    margin: 4px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, .6);
+}
+#zero {
+    width: 145px;
+    height: 40px;
+    margin: 4px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, .6);
+}
+#enter {
+    width: 40px;
+    height: 135px;
+    padding: 1px;
+    position: relative;
+    left: 160px;
+    top: -188px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, .6);
+}
+.operacoes{
+    width: 40px;
+    height: 40px;
+    margin: 4px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, .6);
+}
+div#numero {
+    width: 200px;
+}
