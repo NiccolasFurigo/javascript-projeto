@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Super Trunfo</title>
+    <link rel="shortcut icon" href="_imagem/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="supertrunfo.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="titulo">Super Trunfo</h1>
+        <button id="btnSortear">Sotear Cartar</button>
+        <form id="form">
+            <h2>Escolha seu atributo</h2>
+            <div class="wrapper">
+                <div class="placar"></div>
+                <div class="quantidade-cartas"></div>
+                <div class="cartas">
+                    <div id="carta-jogador" class="carta"></div>
+                    <div id="carta-maquina" class="carta"></div>
+                </div>
+                <button id="btnJogar" class="button-jogar" disabled="false">Jogar</button>
+            </div>
+            <div class="resultado"></div>
+            <button id="btnProximaJogada" disabled='true'>Proxima rodada</button>
+        </form>
+    </div>
+    <script src="supertrunfo.js"></script>
+</body>
+</html>
