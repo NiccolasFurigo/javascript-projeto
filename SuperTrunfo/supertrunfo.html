@@ -11,20 +11,24 @@
 <body>
     <div class="container">
         <h1 class="titulo">Super Trunfo</h1>
-        <button id="btnSortear">Sotear Cartar</button>
+
+        <button onclick="sortearCarta()" id="btnSortear">Sortear carta</button>
+
         <form id="form">
-            <h2>Escolha seu atributo</h2>
+            <h2>Escolha o seu atributo</h2>
             <div class="wrapper">
-                <div class="placar"></div>
-                <div class="quantidade-cartas"></div>
-                <div class="cartas">
+                <div id="placar"></div>
+                <div id="quantidade-cartas"></div>
+                <div id="cartas">
                     <div id="carta-jogador" class="carta"></div>
                     <div id="carta-maquina" class="carta"></div>
                 </div>
-                <button id="btnJogar" class="button-jogar" disabled="false">Jogar</button>
+                <button class="button-jogar" type="button" id="btnJogar" onclick="jogar()"
+                    disabled="false">Jogar</button>
             </div>
-            <div class="resultado"></div>
-            <button id="btnProximaJogada" disabled='true'>Proxima rodada</button>
+            <div id="resultado"></div>
+            <button type="button" id="btnProximaRodada" onclick="proximaRodada()" disabled="true">Proxima
+                rodada</button>
         </form>
     </div>
     <script src="supertrunfo.js"></script>
